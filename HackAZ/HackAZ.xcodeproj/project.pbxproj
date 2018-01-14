@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009E09CF502453BAA816278D /* Pods_HackAZTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D168532116F0A5F9C20B1E /* Pods_HackAZTests.framework */; };
+		09E2D1D5F4BB64D1A980D270 /* Pods_HackAZUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB78519FDC34E894E4069FE8 /* Pods_HackAZUITests.framework */; };
+		4996411A2009E1B8005F6F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499641192009E1B8005F6F75 /* AppDelegate.swift */; };
+		4996411F2009E1B8005F6F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4996411D2009E1B8005F6F75 /* Main.storyboard */; };
+		499641212009E1B8005F6F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499641202009E1B8005F6F75 /* Assets.xcassets */; };
+		499641242009E1B8005F6F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499641222009E1B8005F6F75 /* LaunchScreen.storyboard */; };
+		4996412F2009E1B8005F6F75 /* HackAZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996412E2009E1B8005F6F75 /* HackAZTests.swift */; };
+		4996413A2009E1B8005F6F75 /* HackAZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499641392009E1B8005F6F75 /* HackAZUITests.swift */; };
+		4996414A200A1B70005F6F75 /* GetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49964149200A1B70005F6F75 /* GetViewController.swift */; };
+		4996414C200A1ED8005F6F75 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996414B200A1ED8005F6F75 /* SendViewController.swift */; };
+		4996414E200A20E1005F6F75 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996414D200A20E1005F6F75 /* ProfileViewController.swift */; };
+		49964150200A7D8B005F6F75 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996414F200A7D8B005F6F75 /* InitialViewController.swift */; };
+		49964152200AAE70005F6F75 /* PatientSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49964151200AAE70005F6F75 /* PatientSendViewController.swift */; };
+		49964154200AAED5005F6F75 /* PatientProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49964153200AAED5005F6F75 /* PatientProfileViewController.swift */; };
+		4996415B200AEC8A005F6F75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4996415A200AEC8A005F6F75 /* GoogleService-Info.plist */; };
+		4996415D200B278C005F6F75 /* AddReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996415C200B278C005F6F75 /* AddReportViewController.swift */; };
+		49D14454200B477B001EECF0 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D14453200B477B001EECF0 /* RecordViewController.swift */; };
+		CE3862CBD819C65286BC6425 /* Pods_HackAZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DFA8D281B4255D7AAD5C5E /* Pods_HackAZ.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4996412B2009E1B8005F6F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4996410E2009E1B8005F6F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499641152009E1B8005F6F75;
+			remoteInfo = HackAZ;
+		};
+		499641362009E1B8005F6F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4996410E2009E1B8005F6F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499641152009E1B8005F6F75;
+			remoteInfo = HackAZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11B76333BEEDD659A404EBF8 /* Pods-HackAZUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackAZUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackAZUITests/Pods-HackAZUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1217C3BB461147CB607E680F /* Pods-HackAZUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackAZUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackAZUITests/Pods-HackAZUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33F1256784DDF5A1C1FF82AD /* Pods-HackAZTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackAZTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackAZTests/Pods-HackAZTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35D168532116F0A5F9C20B1E /* Pods_HackAZTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackAZTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E8A6ACE46AD31B355BD994 /* Pods-HackAZTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackAZTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackAZTests/Pods-HackAZTests.release.xcconfig"; sourceTree = "<group>"; };
+		477A6389E4963EE7EC073154 /* Pods-HackAZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackAZ.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackAZ/Pods-HackAZ.release.xcconfig"; sourceTree = "<group>"; };
+		499641162009E1B8005F6F75 /* HackAZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackAZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499641192009E1B8005F6F75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4996411E2009E1B8005F6F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		499641202009E1B8005F6F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499641232009E1B8005F6F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		499641252009E1B8005F6F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4996412A2009E1B8005F6F75 /* HackAZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackAZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4996412E2009E1B8005F6F75 /* HackAZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackAZTests.swift; sourceTree = "<group>"; };
+		499641302009E1B8005F6F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499641352009E1B8005F6F75 /* HackAZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackAZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499641392009E1B8005F6F75 /* HackAZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackAZUITests.swift; sourceTree = "<group>"; };
+		4996413B2009E1B8005F6F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49964149200A1B70005F6F75 /* GetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetViewController.swift; sourceTree = "<group>"; };
+		4996414B200A1ED8005F6F75 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		4996414D200A20E1005F6F75 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4996414F200A7D8B005F6F75 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		49964151200AAE70005F6F75 /* PatientSendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSendViewController.swift; sourceTree = "<group>"; };
+		49964153200AAED5005F6F75 /* PatientProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfileViewController.swift; sourceTree = "<group>"; };
+		4996415A200AEC8A005F6F75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4996415C200B278C005F6F75 /* AddReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReportViewController.swift; sourceTree = "<group>"; };
+		49D14453200B477B001EECF0 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		B3DFA8D281B4255D7AAD5C5E /* Pods_HackAZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackAZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA068E14146504071CD9946F /* Pods-HackAZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackAZ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackAZ/Pods-HackAZ.debug.xcconfig"; sourceTree = "<group>"; };
+		DB78519FDC34E894E4069FE8 /* Pods_HackAZUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackAZUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499641132009E1B8005F6F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3862CBD819C65286BC6425 /* Pods_HackAZ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499641272009E1B8005F6F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009E09CF502453BAA816278D /* Pods_HackAZTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499641322009E1B8005F6F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E2D1D5F4BB64D1A980D270 /* Pods_HackAZUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4996410D2009E1B8005F6F75 = {
+			isa = PBXGroup;
+			children = (
+				499641182009E1B8005F6F75 /* HackAZ */,
+				4996412D2009E1B8005F6F75 /* HackAZTests */,
+				499641382009E1B8005F6F75 /* HackAZUITests */,
+				499641172009E1B8005F6F75 /* Products */,
+				FE23F76B1BACDBBC4561B70B /* Pods */,
+				E33426FB2811978A6BD05DAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		499641172009E1B8005F6F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499641162009E1B8005F6F75 /* HackAZ.app */,
+				4996412A2009E1B8005F6F75 /* HackAZTests.xctest */,
+				499641352009E1B8005F6F75 /* HackAZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499641182009E1B8005F6F75 /* HackAZ */ = {
+			isa = PBXGroup;
+			children = (
+				4996415A200AEC8A005F6F75 /* GoogleService-Info.plist */,
+				499641192009E1B8005F6F75 /* AppDelegate.swift */,
+				4996411D2009E1B8005F6F75 /* Main.storyboard */,
+				499641202009E1B8005F6F75 /* Assets.xcassets */,
+				499641222009E1B8005F6F75 /* LaunchScreen.storyboard */,
+				499641252009E1B8005F6F75 /* Info.plist */,
+				49964149200A1B70005F6F75 /* GetViewController.swift */,
+				4996414B200A1ED8005F6F75 /* SendViewController.swift */,
+				4996414D200A20E1005F6F75 /* ProfileViewController.swift */,
+				4996414F200A7D8B005F6F75 /* InitialViewController.swift */,
+				49964151200AAE70005F6F75 /* PatientSendViewController.swift */,
+				49964153200AAED5005F6F75 /* PatientProfileViewController.swift */,
+				4996415C200B278C005F6F75 /* AddReportViewController.swift */,
+				49D14453200B477B001EECF0 /* RecordViewController.swift */,
+			);
+			path = HackAZ;
+			sourceTree = "<group>";
+		};
+		4996412D2009E1B8005F6F75 /* HackAZTests */ = {
+			isa = PBXGroup;
+			children = (
+				4996412E2009E1B8005F6F75 /* HackAZTests.swift */,
+				499641302009E1B8005F6F75 /* Info.plist */,
+			);
+			path = HackAZTests;
+			sourceTree = "<group>";
+		};
+		499641382009E1B8005F6F75 /* HackAZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				499641392009E1B8005F6F75 /* HackAZUITests.swift */,
+				4996413B2009E1B8005F6F75 /* Info.plist */,
+			);
+			path = HackAZUITests;
+			sourceTree = "<group>";
+		};
+		E33426FB2811978A6BD05DAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3DFA8D281B4255D7AAD5C5E /* Pods_HackAZ.framework */,
+				35D168532116F0A5F9C20B1E /* Pods_HackAZTests.framework */,
+				DB78519FDC34E894E4069FE8 /* Pods_HackAZUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE23F76B1BACDBBC4561B70B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA068E14146504071CD9946F /* Pods-HackAZ.debug.xcconfig */,
+				477A6389E4963EE7EC073154 /* Pods-HackAZ.release.xcconfig */,
+				33F1256784DDF5A1C1FF82AD /* Pods-HackAZTests.debug.xcconfig */,
+				46E8A6ACE46AD31B355BD994 /* Pods-HackAZTests.release.xcconfig */,
+				11B76333BEEDD659A404EBF8 /* Pods-HackAZUITests.debug.xcconfig */,
+				1217C3BB461147CB607E680F /* Pods-HackAZUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499641152009E1B8005F6F75 /* HackAZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4996413E2009E1B8005F6F75 /* Build configuration list for PBXNativeTarget "HackAZ" */;
+			buildPhases = (
+				8EA0FDC64230B0B06A60DEA4 /* [CP] Check Pods Manifest.lock */,
+				499641122009E1B8005F6F75 /* Sources */,
+				499641132009E1B8005F6F75 /* Frameworks */,
+				499641142009E1B8005F6F75 /* Resources */,
+				0CE14CF6B2B6DB760447C53D /* [CP] Embed Pods Frameworks */,
+				CC831F0DDF7BD84D75485B1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackAZ;
+			productName = HackAZ;
+			productReference = 499641162009E1B8005F6F75 /* HackAZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		499641292009E1B8005F6F75 /* HackAZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499641412009E1B8005F6F75 /* Build configuration list for PBXNativeTarget "HackAZTests" */;
+			buildPhases = (
+				8CF236EEBF580FCD8747DCB8 /* [CP] Check Pods Manifest.lock */,
+				499641262009E1B8005F6F75 /* Sources */,
+				499641272009E1B8005F6F75 /* Frameworks */,
+				499641282009E1B8005F6F75 /* Resources */,
+				5E6C6861A75E4146F43CEC02 /* [CP] Embed Pods Frameworks */,
+				76237EBA118618651078E507 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4996412C2009E1B8005F6F75 /* PBXTargetDependency */,
+			);
+			name = HackAZTests;
+			productName = HackAZTests;
+			productReference = 4996412A2009E1B8005F6F75 /* HackAZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		499641342009E1B8005F6F75 /* HackAZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499641442009E1B8005F6F75 /* Build configuration list for PBXNativeTarget "HackAZUITests" */;
+			buildPhases = (
+				430BD79A5C0EF233A1C50D2B /* [CP] Check Pods Manifest.lock */,
+				499641312009E1B8005F6F75 /* Sources */,
+				499641322009E1B8005F6F75 /* Frameworks */,
+				499641332009E1B8005F6F75 /* Resources */,
+				DFACFA145868CA1A005684DA /* [CP] Embed Pods Frameworks */,
+				0C382CF8B061D4D7AD0DED70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499641372009E1B8005F6F75 /* PBXTargetDependency */,
+			);
+			name = HackAZUITests;
+			productName = HackAZUITests;
+			productReference = 499641352009E1B8005F6F75 /* HackAZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4996410E2009E1B8005F6F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Andrew Phillips";
+				TargetAttributes = {
+					499641152009E1B8005F6F75 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					499641292009E1B8005F6F75 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 499641152009E1B8005F6F75;
+					};
+					499641342009E1B8005F6F75 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 499641152009E1B8005F6F75;
+					};
+				};
+			};
+			buildConfigurationList = 499641112009E1B8005F6F75 /* Build configuration list for PBXProject "HackAZ" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4996410D2009E1B8005F6F75;
+			productRefGroup = 499641172009E1B8005F6F75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499641152009E1B8005F6F75 /* HackAZ */,
+				499641292009E1B8005F6F75 /* HackAZTests */,
+				499641342009E1B8005F6F75 /* HackAZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499641142009E1B8005F6F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499641242009E1B8005F6F75 /* LaunchScreen.storyboard in Resources */,
+				4996415B200AEC8A005F6F75 /* GoogleService-Info.plist in Resources */,
+				499641212009E1B8005F6F75 /* Assets.xcassets in Resources */,
+				4996411F2009E1B8005F6F75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499641282009E1B8005F6F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499641332009E1B8005F6F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C382CF8B061D4D7AD0DED70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackAZUITests/Pods-HackAZUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CE14CF6B2B6DB760447C53D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HackAZ/Pods-HackAZ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackAZ/Pods-HackAZ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430BD79A5C0EF233A1C50D2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackAZUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E6C6861A75E4146F43CEC02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackAZTests/Pods-HackAZTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76237EBA118618651078E507 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackAZTests/Pods-HackAZTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF236EEBF580FCD8747DCB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackAZTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA0FDC64230B0B06A60DEA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackAZ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC831F0DDF7BD84D75485B1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackAZ/Pods-HackAZ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFACFA145868CA1A005684DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackAZUITests/Pods-HackAZUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499641122009E1B8005F6F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49964150200A7D8B005F6F75 /* InitialViewController.swift in Sources */,
+				4996411A2009E1B8005F6F75 /* AppDelegate.swift in Sources */,
+				4996414A200A1B70005F6F75 /* GetViewController.swift in Sources */,
+				49D14454200B477B001EECF0 /* RecordViewController.swift in Sources */,
+				4996414E200A20E1005F6F75 /* ProfileViewController.swift in Sources */,
+				49964152200AAE70005F6F75 /* PatientSendViewController.swift in Sources */,
+				4996415D200B278C005F6F75 /* AddReportViewController.swift in Sources */,
+				4996414C200A1ED8005F6F75 /* SendViewController.swift in Sources */,
+				49964154200AAED5005F6F75 /* PatientProfileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499641262009E1B8005F6F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4996412F2009E1B8005F6F75 /* HackAZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499641312009E1B8005F6F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4996413A2009E1B8005F6F75 /* HackAZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4996412C2009E1B8005F6F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499641152009E1B8005F6F75 /* HackAZ */;
+			targetProxy = 4996412B2009E1B8005F6F75 /* PBXContainerItemProxy */;
+		};
+		499641372009E1B8005F6F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499641152009E1B8005F6F75 /* HackAZ */;
+			targetProxy = 499641362009E1B8005F6F75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4996411D2009E1B8005F6F75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4996411E2009E1B8005F6F75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		499641222009E1B8005F6F75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499641232009E1B8005F6F75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4996413C2009E1B8005F6F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4996413D2009E1B8005F6F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4996413F2009E1B8005F6F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA068E14146504071CD9946F /* Pods-HackAZ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5936WRL6Y;
+				INFOPLIST_FILE = HackAZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Andrew.HackAZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499641402009E1B8005F6F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477A6389E4963EE7EC073154 /* Pods-HackAZ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5936WRL6Y;
+				INFOPLIST_FILE = HackAZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Andrew.HackAZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		499641422009E1B8005F6F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F1256784DDF5A1C1FF82AD /* Pods-HackAZTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackAZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Andrew.HackAZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackAZ.app/HackAZ";
+			};
+			name = Debug;
+		};
+		499641432009E1B8005F6F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E8A6ACE46AD31B355BD994 /* Pods-HackAZTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackAZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Andrew.HackAZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackAZ.app/HackAZ";
+			};
+			name = Release;
+		};
+		499641452009E1B8005F6F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B76333BEEDD659A404EBF8 /* Pods-HackAZUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackAZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Andrew.HackAZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackAZ;
+			};
+			name = Debug;
+		};
+		499641462009E1B8005F6F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1217C3BB461147CB607E680F /* Pods-HackAZUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackAZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Andrew.HackAZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackAZ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499641112009E1B8005F6F75 /* Build configuration list for PBXProject "HackAZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4996413C2009E1B8005F6F75 /* Debug */,
+				4996413D2009E1B8005F6F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4996413E2009E1B8005F6F75 /* Build configuration list for PBXNativeTarget "HackAZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4996413F2009E1B8005F6F75 /* Debug */,
+				499641402009E1B8005F6F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499641412009E1B8005F6F75 /* Build configuration list for PBXNativeTarget "HackAZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499641422009E1B8005F6F75 /* Debug */,
+				499641432009E1B8005F6F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499641442009E1B8005F6F75 /* Build configuration list for PBXNativeTarget "HackAZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499641452009E1B8005F6F75 /* Debug */,
+				499641462009E1B8005F6F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4996410E2009E1B8005F6F75 /* Project object */;
+}
